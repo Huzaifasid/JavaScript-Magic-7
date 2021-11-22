@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chap 43-48</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+      body{
+        background-color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+   
+    a{
+        
+        text-decoration: none;
+        color: blue;
+    }
+    a:hover{
+        transition: 0.2s;
+        color: red;
+    }
+</style>
+<body>
+
+
+    <a href="../index.html">Back to main page</a><br><br><br>
+    
+    <!-- Question 1 -->
+    <div class="container pt-5 pb-5">
+        <a href="javascript:void()" onclick="alertLink()" id="Alert">Link</a>
+
+    </div>
+
+    <!-- Question 2 -->
+    <div>
+        <h1>Mobile Phones Store</h1>
+        <div class="container row">
+
+            <div id="Iphone">
+                <img src="./images/i phone img.png" width="150" alt="I phone">
+                <br>
+                <a href="javascript:void()" onclick="iphone()" class="pl-5">Iphone</a>
+            </div>
+            <div id="Motorola">
+                <img src="./images/motorola img.png" width="150" alt="Motorola">
+                <br>
+                <a href="javascript:void()" onclick="motorola()" class="pl-5">Motorola</a>
+            </div>
+            <div id="RealME">
+                <img src="./images/real me img.png" width="150" alt="Real Me">
+                <br>
+                <a href="javascript:void()" onclick="realme()" class="pl-5">Real Me</a>
+            </div>
+            <div class="Samsung">
+                <img src="./images/samsung img.png" width="150" alt="Samsung">
+                <br>
+                <a href="javascript:void()" onclick="samsung()" class="pl-5">Samsung</a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Question 3 -->
+<div class="container mt-5">
+
+    <table >
+        <tr >
+            <th class="pr-2">Index</th>
+            <th class="pr-2">Name</th>
+            <th class="pr-2">Class</th>
+        </tr>
+        <tr id="table">
+            <td>0</td>
+            <td>Jhone</td>
+            <td>10</td>
+            <td><button onclick="deletE()">Delete</button></td>
+        </tr>
+        <tr id="table2">
+            <td>1</td>
+            <td>Doe</td>
+            <td>9</td>
+            <td><button onclick="deletE2()">Delete</button></td>
+        </tr>
+        <tr id="table3">
+            <td>2</td>
+            <td>Mark</td>
+            <td>10</td>
+            <td><button onclick="deletE3()">Delete</button></td>
+        </tr>
+        <tr id="table4">
+            <td>3</td>
+            <td>James</td>
+            <td>8</td>
+            <td><button onclick="deletE4()">Delete</button></td>
+        </tr>
+        
+    </table>
+</div>
+
+ <!-- Question 4 -->
+
+<div class="container pt-5" >
+    <img src="./images/burger img.jpg" id="hover" onmouseover="imagehover()" onmouseout="imageOut()" width="270" >
+
+</div>
+
+ <!-- Question 5 -->
+<!-- <div>
+    <h1 id="timer"></h1>
+    <button onclick="counter()">Increase</button>
+
+</div> -->
+</body>
+<script src="app.js"></script>
+
+</html>

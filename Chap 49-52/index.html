@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chap 49-52</title>
+</head>
+<style>
+    .hidden {
+        display: none;
+    }
+    .tablehide{
+    display: none;
+}
+body{
+        background-color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+   
+    a{
+        
+        text-decoration: none;
+        color: blue;
+    }
+    a:hover{
+        transition: 0.2s;
+        color: red;
+    }
+
+</style>
+
+<body>
+
+    <a href="../index.html">Back to main page</a><br><br><br>
+
+
+    
+    <div>
+        <h1>Sign Up Form</h1>
+        <form>
+            <fieldset>
+                <legend>
+                    Sign Up Here
+                </legend>
+                <p>User Name:<input type="text" id="Name" required value="" placeholder="Enter User Name"></p>
+                <p>
+                    Password:<input type="password" id="Password" required placeholder="Enter Password">
+                </p>
+                <p>
+                    Email:<input type="email" id="Email" placeholder="Enter Your Email">
+                </p>
+
+                <button onclick="userForm()">Submit</button>
+            </fieldset>
+
+        </form>
+    </div>
+
+    <p id="shortpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae earum tempora corrupti ad sequi
+        deserunt <a href="javascript:void(0)" onclick="fullP()">Read more</a>
+    </p>
+
+
+
+
+    <!-- Question 3 -->
+
+
+
+    <!-- <table border="2">
+        <tr>
+            <th>Index</th>
+            <th>Name</th>
+            <th>Class</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td id="userName" value=""></td>
+            <td></td>
+            <td><button>Delete</button></td>
+            
+          
+        </tr>
+    </table>
+ -->
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
